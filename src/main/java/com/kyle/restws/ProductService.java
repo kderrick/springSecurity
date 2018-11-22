@@ -6,6 +6,6 @@ public interface ProductService {
 
 	List <Product> getProducts();
 	
-	int addProduct(Product product);
+	long addProduct(Product product);
 	
 }
