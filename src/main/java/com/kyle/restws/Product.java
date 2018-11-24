@@ -1,5 +1,8 @@
 package com.kyle.restws;
 
+import javax.xml.bind.annotation.XmlRootElement;
+
+@XmlRootElement(name="product")
 public class Product {
 
 	private long id;

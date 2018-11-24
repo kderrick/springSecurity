@@ -3,6 +3,9 @@ package com.kyle.restws;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.springframework.stereotype.Service;
+
+@Service
 public class ProductServiceImpl implements ProductService {
 	
 	private List<Product> products = new ArrayList<>();
